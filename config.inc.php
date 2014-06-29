@@ -2,7 +2,7 @@
 //Database
 $DBHOST = "127.0.0.1";
 $DBUSER = "PB";
-$DBPASS = "4asq2pLbTGAPJvsa";
+$DBPASS = "PB";
 $DBASE = "PB";
 $DBTAB = "PB";
 
@@ -10,6 +10,6 @@ $DBTAB = "PB";
 $PASS = "password";
 
 //Domain (with trailing slash)
-$HOST = "http://shushmail.tk/tor/";
-$EMAIL = "admin@shushmail.tk"
+$HOST = "http://localhost/";
+$EMAIL = "admin@localhost"
 ?>
