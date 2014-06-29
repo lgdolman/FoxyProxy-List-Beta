@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost/index.php/';
+$config['base_email'] = 'admin@localhost';
 
 /*
 |--------------------------------------------------------------------------

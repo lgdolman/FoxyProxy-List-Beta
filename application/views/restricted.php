@@ -12,10 +12,10 @@
 	<?php
 		
 		echo "<p>";
-		echo 'The system indicates that the file, Bravo Charlie Yankee 307604, requires at least level 10 access. <br /> Would you like to <a href="mailto:admin@localhost">submit a formal request to Director Fury</a>, sir?';
+		echo 'The system indicates that the file, Bravo Charlie Yankee 307604, requires at least level 10 access. <br /> Would you like to <a href="mailto:'.$this->config->item('base_email').'">submit a formal request to Director Fury</a>, sir?';
         echo "<br />";
         echo "<br />";
-        echo 'Perhaps you input your authorisation code incorrectly, or provided an incorrect file identifier, would you like to <a href="http://localhost">try again?</a>';
+        echo 'Perhaps you input your authorisation code incorrectly, or provided an incorrect file identifier, would you like to <a href='.base_url().'>try again?</a>';
         echo "</p>";
 	?>	
 	</div>

@@ -67,4 +67,8 @@ class Main extends CI_Controller {
     public function restricted(){
         $this->load->view('restricted');
     }
+    
+    public function logout(){
+        $this->session->sess_destroy();
+    }
 }

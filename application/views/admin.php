@@ -8,6 +8,9 @@
 
 <div id="container">
 	<h1>Administration Page</h1>
+	<div id="header">
+	<a href='<?php echo base_url()."main/logout"?>'>Logout</a>   
+	</div>
 	<div id="content">
 	<?php
 		
