@@ -1,4 +1,4 @@
 FoxyProxy-List
 ==============
 
-Website to remotly add sites to a pattern list! 
+Deployable CodeIgniter based Website to remotly add sites to a pattern list! 
