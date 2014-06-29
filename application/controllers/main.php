@@ -22,6 +22,12 @@ class Main extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Password', 'required|trim|md5');
 
 		if ($this->form_validation->run()){
+		    $sessiondata = array(
+            'email' => $this->input->post('email'),
+            'is_logged_in' => 1
+            );
+          
+		    $this->session->set_userdata($sessiondata);
 			redirect('main/admin');
 		}
 		else
@@ -49,7 +55,16 @@ class Main extends CI_Controller {
 	
 	public function admin(){
 	    //admin page control
-		$this->load->view('admin');
-		
+	    if($this->session->userdata('is_logged_in')){
+	       $this->load->view('admin');
+	    }
+        else {
+           $this->load->view('restricted');
+            
+        }
 	}
+    
+    public function restricted(){
+        $this->load->view('restricted');
+    }
 }

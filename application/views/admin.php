@@ -11,8 +11,9 @@
 	<div id="content">
 	<?php
 		
-		
-		
+		echo "<pre>";
+		print_r ($this->session->all_userdata());
+        echo "</pre>";
 	?>	
 	</div>
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>

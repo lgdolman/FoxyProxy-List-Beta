@@ -3,6 +3,7 @@
 class login extends CI_Model {
         
         public function can_log_in(){
+            //Queries the database to check if the account is known and has valid credentials 
             $this->db->where('email', $this->input->post('email'));
             $this->db->where('password', md5($this->input->post('password')));
             
@@ -14,9 +15,8 @@ class login extends CI_Model {
                 return false;
             }
         }
-        
-        
-        
+ 
+      
         
 }
 ?>

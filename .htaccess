@@ -1,0 +1,1 @@
+ErrorDocument 401 /application/views/restricted.php
