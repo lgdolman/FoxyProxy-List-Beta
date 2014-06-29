@@ -1,4 +1,4 @@
-FoxyProxy-List
+FoxyProxy-List CI_BETA
 ==============
 
 Mass-deployable CodeIgniter based Website to remotely add sites to a pattern list! 
