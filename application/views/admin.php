@@ -19,6 +19,7 @@
         echo "</pre>";
 	?>	
 	</div>
+	<a href='<?php echo base_url()."main/users"?>'>Add User</a>
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
 

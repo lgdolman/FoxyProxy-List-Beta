@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Base Site URL
+| Base Site URL and Webmaster Email
 |--------------------------------------------------------------------------
 |
 | URL to your CodeIgniter root. Typically this will be your base URL,
@@ -14,8 +14,11 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/index.php/';
+$config['base_url']	= 'http://localhost/index.php';
 $config['base_email'] = 'admin@localhost';
+$config['site_name'] = 'FoxyProxy Lists';
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +30,7 @@ $config['base_email'] = 'admin@localhost';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
