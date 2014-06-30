@@ -24,5 +24,6 @@ Mass-deployable CodeIgniter based Website to remotely add sites to a pattern lis
 
 ###Installation
 *See config.inc.php for configuration options
+*Set SMTP options in ./application/controller/main.php
 *Please link to this git page if you deploy this system
 
